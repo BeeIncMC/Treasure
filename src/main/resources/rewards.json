@@ -1,0 +1,34 @@
+{
+  "rewards": [
+    {
+      "name": "test1",
+      "type": "DIAMOND",
+      "display-name": "TEST1",
+      "enchanted": true,
+      "unique": false,
+      "rarity": "COMMON",
+      "command": "/command",
+      "permission": ""
+    },
+    {
+      "name": "test2",
+      "type": "IRON_INGOT",
+      "display-name": "TEST2",
+      "enchanted": true,
+      "unique": false,
+      "rarity": "RARE",
+      "command": "/command",
+      "permission": ""
+    },
+    {
+      "name": "test3",
+      "type": "GOLD_INGOT",
+      "display-name": "TEST3",
+      "enchanted": false,
+      "unique": false,
+      "rarity": "LEGENDARY",
+      "command": "/command",
+      "permission": ""
+    }
+  ]
+}

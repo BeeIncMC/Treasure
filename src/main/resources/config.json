@@ -1,0 +1,32 @@
+{
+  "database": {
+    "host": "",
+    "port": "",
+    "database": "",
+    "username": "",
+    "password": ""
+  },
+  "opening-gui": {
+    "display-name": "&8Treasure",
+    "slot-count": 54,
+    "filler": "AIR",
+    "slots": [
+      {
+        "slot": 10,
+        "type": "CHEST",
+        "enchanted": false,
+        "display-name": "&bClassic Treasure",
+        "lore": [
+          "",
+          "&7The classic treasure chest",
+          "",
+          "&bYou own &3%player-treasure-count-classic%&b classic treasure chests!",
+          "",
+          "&7Left-click to open!"
+        ],
+        "chest": "default"
+      }
+    ]
+  },
+  "locations": []
+}

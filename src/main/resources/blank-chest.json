@@ -1,0 +1,23 @@
+{
+  "display-name": "AIR",
+  "schematic": "default",
+  "chest-count": 4,
+  "rewards": [
+    "test1",
+    "test2",
+    "test3"
+  ],
+  "build-animation": [
+    "24",
+    "17, 25, 31, 23",
+    "16, 18, 32, 30, 9, 15, 11, 19, 33, 39, 37, 29",
+    "8, 12, 40, 36, 10, 26, 38, 22",
+    "14, 2, 4, 20, 34, 46, 44, 28, 7, 1, 5, 13, 41, 47, 43, 35",
+    "3, 27, 45, 21, 0, 6, 48, 42"
+  ],
+  "chest-animation": {
+    "head": "392dbeaf-dfc1-4e7d-9b2f-adb1604f67db",
+    "animation": "ENTITYFALL",
+    "data": "BLAZE"
+  }
+}

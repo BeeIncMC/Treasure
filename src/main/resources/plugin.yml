@@ -1,0 +1,37 @@
+name: PixelTreasure
+version: @version@
+main: us.pixelgames.pixeltreasure.PixelTreasure
+authors: [ Beelnc ]
+description: Treasure/Loot Chest system for rolling items
+website: pixelgames.us
+softdepend: [LuckPerms, ProCosmetics, GadgetsMenu]
+depend: []
+
+commands:
+  treasure:
+    description: Treasure command / main command for the plugin
+    permission: treasure
+
+permissions:
+  treasure.admin:
+    description: Gives all permissions for the plugin
+    default: op
+    children:
+      treasure.setstation: true
+      treasure.add: true
+      treasure.remove: true
+      treasure.help: true
+      treasure.schematic: true
+      treasure.chest: true
+  treasure.add:
+    description: "Allows an admin to add crates to players"
+  treasure.remove:
+    description: "Allows an admin to remove crates from players"
+  treasure.setstation:
+    description: "Allows an admin to set and remove crate locations"
+  treasure.help:
+    description: "Allows permission for the /treasure help command"
+  treasure.schematic:
+    description: "Allows an admin to save/load/list schematics"
+  treasure.chest:
+    description: "Allows an admin to create chests and add items to chests"
